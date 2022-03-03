@@ -1,9 +1,9 @@
 #
 # ~/.bashrc
 #
-#SETTING VI MODE ON AND REMAPPING KEYBINDING
-#set -o vi
-#bind '"jj":vi-movement-mode'
+#SETTING VI MODE ON AND REMAPPING KEYBINDING <Esc> to jj
+set -o vi
+bind '"jj":vi-movement-mode'
 
 
 # If not running interactively, don't do anything
