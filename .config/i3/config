@@ -205,7 +205,12 @@ exec_always feh --bg-fill /home/anand/Pictures/archlinux.png
 # Window Compositor
 exec_always picom 
 
+# Disable window titlebar entirely
+default_border pixel 1
+default_floating_border pixel 1
+
 # STUFF RELATED TO BLOCKS(BUT I DONT UNDERSTAND THE CODE NOW)
+ gaps inner 9
 
 
 
