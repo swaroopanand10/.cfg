@@ -98,3 +98,9 @@ PS1=" \[\e[1;36m\]\w \[\e[1;31m\]\[\e[0m\] "
 #export PS1='\[\e[0m\]\w\[\e[0m\]>\[\e[0m\]'
 #export PS1="\w >\[$(tput sgr0)\]"
 
+
+#SETTINGS TO BE ADDED IN /etc/bash.bashrc for root
+#PS1='[\u@\h \W]\$ '
+#PS1=" \[\e[1;36m\]\w \[\e[1;31m\]# \[\e[1;32m\]\[\e[0m\] "
+#                     
+
