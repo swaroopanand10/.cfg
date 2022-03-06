@@ -90,3 +90,11 @@ _open_files_for_editing() {
 ################################################################################
 
 alias config='/usr/bin/git --git-dir=/home/anand/.cfg/ --work-tree=/home/anand'
+
+# PS1 customizations - 
+#export PS1="\w >\[$(tput sgr0)\]"
+PS1=" \[\e[1;36m\]\w \[\e[1;31m\]\[\e[0m\] "
+#                     
+#export PS1='\[\e[0m\]\w\[\e[0m\]>\[\e[0m\]'
+#export PS1="\w >\[$(tput sgr0)\]"
+
