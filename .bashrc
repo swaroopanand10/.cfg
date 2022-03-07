@@ -3,7 +3,8 @@
 #
 #SETTING VI MODE ON AND REMAPPING KEYBINDING <Esc> to jj
 set -o vi
-bind '"jj":vi-movement-mode'
+bind '"jk":vi-movement-mode'
+bind '"kj":vi-movement-mode'
 
 
 # If not running interactively, don't do anything
