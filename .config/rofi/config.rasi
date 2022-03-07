@@ -1,0 +1,21 @@
+//rofi config file
+
+configuration {
+  display-drun: "Applications:";
+  display-window: "Windows:";
+  drun-display-format: "{icon} {name}";
+  font: "JetBrainsMono Nerd Font 15";
+  modi: "window,run,drun";
+  show-icons: true;
+  icons-theme: "Papirus";
+  kb-row-up: "Up,Control+p,Alt+k";
+  kb-row-down: "Down,Control+n,Alt+j";
+  kb-mode-next: "Shift+Right,Control+Tab,Tab";
+  kb-row-tab: "";
+  kb-row-left: "Control+Page_Up,Alt+h";
+  kb-row-right: "Control+Page_Down,Alt+l";
+}
+
+//themes
+//@theme "/usr/share/rofi/themes/dmenu.rasi"
+@theme "/usr/share/rofi/themes/sidebar.rasi"
