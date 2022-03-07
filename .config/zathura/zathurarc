@@ -1,0 +1,4 @@
+map u scroll half-up
+map i scroll half-down
+
+:set scroll-step 500
