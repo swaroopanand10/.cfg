@@ -1,0 +1,9 @@
+[user]
+	name = swaroopanand
+	email = swaroopanand695@gmail.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[core]
+	excludeFile = ~/.gitignore
