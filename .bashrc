@@ -105,3 +105,7 @@ PS1=" \[\e[1;36m\]\w \[\e[1;31m\]\[\e[0m\] "
 #PS1=" \[\e[1;36m\]\w \[\e[1;31m\]# \[\e[1;32m\]\[\e[0m\] "
 #                     
 
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+
+
