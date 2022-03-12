@@ -108,4 +108,6 @@ PS1=" \[\e[1;36m\]\w \[\e[1;31m\]\[\e[0m\] "
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
+# path variable for go
+export PATH=$PATH:/usr/local/go/bin
 
