@@ -51,7 +51,7 @@
   <property name="autoloadMostRecent" value="false"/>
   <property name="autoloadPdfXoj" value="true"/>
   <property name="defaultSaveName" value="%F-Note-%H-%M"/>
-  <property name="autosaveEnabled" value="true"/>
+  <property name="autosaveEnabled" value="false"/>
   <property name="autosaveTimeout" value="1"/>
   <property name="addHorizontalSpace" value="false"/>
   <property name="addHorizontalSpaceAmount" value="150"/>
