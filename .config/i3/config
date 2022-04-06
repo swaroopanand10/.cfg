@@ -51,6 +51,8 @@ bindsym $mod+Return exec alacritty
 # start firefox
 bindsym $alt+f exec firefox
 
+# start librewolf
+bindsym $alt+w exec librewolf
 # start thunar
 bindsym $mod+Shift+Return exec thunar
 
@@ -226,7 +228,7 @@ bindsym $mod+x exec --no-startup-id i3lock -i ~/Pictures/archlinux3.png
 # exec_always --no-startup-id xss-lock -- i3lock -n -i ~/Pictures/archlinux3.png &
 
 # Window Compositor
-exec_always picom 
+exec_always picom
 
 # Disable window titlebar entirely
 default_border pixel 1
@@ -256,3 +258,9 @@ client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+#some personalized shortcuts
+# bindsym $mod+Shift+n exec i3-msg "workspace 5; firefox"
+# exec i3-msg "workspace 5; exec firefox"
+bindsym $mod+1 workspace 2; exec librewolf ; workspace 3; exec xournalpp; workspace 4; exec firefox; workspace 1; exec alacritty; 
+# bindsym $mod+2 workspace 1; exec xfce4-terminal -e ls  ;
