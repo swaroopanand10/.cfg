@@ -1,7 +1,7 @@
 #
 # ~/.bashrc
 #
-#SETTING VI MODE ON AND REMAPPING KEYBINDING <Esc> to jj
+#SETTING VI MODE ON AND REMAPPING KEYBINDING <Esc> to jk and kj
 # Add this lines at the top of .bashrc:
 # [[ $- == *i* ]] && source ~/.local/share/blesh/ble.sh --noattach
 
@@ -95,9 +95,11 @@ _open_files_for_editing() {
 
 alias config='/usr/bin/git --git-dir=/home/anand/.cfg/ --work-tree=/home/anand'
 alias ll='lsd -alh'
+
 # PS1 customizations - 
 #export PS1="\w >\[$(tput sgr0)\]"
-PS1=" \[\e[1;36m\]\w \[\e[1;31m\]\[\e[0m\] "
+# PS1=" \[\e[1;36m\]\w \[\e[1;31m\]\[\e[0m\] "
+PS1=" \[\e[1;32m\]\w \[\e[1;31m\]\[\e[0m\] "
 #                     
 #export PS1='\[\e[0m\]\w\[\e[0m\]>\[\e[0m\]'
 #export PS1="\w >\[$(tput sgr0)\]"
