@@ -201,10 +201,10 @@ bindsym $mod+Shift+u resize grow width 10 px or 10 ppt
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-#bar {
-#        status_command i3status
-#}
+# finds out, if available
+# bar {
+#         status_command i3status
+# }
 
 # polkit-gnome (make sure it is installed)
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -228,7 +228,7 @@ bindsym $mod+x exec --no-startup-id i3lock -i ~/Pictures/archlinux3.png
 # exec_always --no-startup-id xss-lock -- i3lock -n -i ~/Pictures/archlinux3.png &
 
 # Window Compositor
-exec_always picom
+# exec_always picom
 
 # Disable window titlebar entirely
 default_border pixel 1
