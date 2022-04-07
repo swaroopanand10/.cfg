@@ -24,12 +24,12 @@ alias ll='lsd -alh'
 alias ls='ls --color=auto'
 alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
  
-#some plugins
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh
-# source ~/.zsh/antigen.zsh
-# antigen bundle zsh-users/zsh-autosuggestions
-# antigen bundle jeffreytse/zsh-vi-mode
+# Some plugins
+# source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source ~/.zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+source ~/.zsh/antigen.zsh
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle jeffreytse/zsh-vi-mode
 
 export VISUAL=nvim
 export EDITOR="$VISUAL"
@@ -45,7 +45,7 @@ ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
 
 
 #sourcing zsh syntax highlighting at the end of the file
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# antigen bundle zsh-users/zsh-syntax-highlighting
-# antigen apply
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen apply
