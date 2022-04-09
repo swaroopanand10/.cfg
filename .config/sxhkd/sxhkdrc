@@ -9,6 +9,8 @@ super + Return
 # program launcher
 super + p
 	rofi -show drun
+super + d 
+  dmenu_run
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -18,6 +20,27 @@ super + Escape
 alt + {f,w}
   {firefox, librewolf}
 
+# rofi greenclip clipboard manager
+super + 0
+  rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+
+# execute file manager
+# super + 2
+#   pcmanfm
+
+#Custom hotkeys for launching various applications
+# super +2
+#   alacritty desktop='^1' && librewolf desktop='^2' && xournalpp desktop='^3' && firefox desktop='^4'
+# super + 1 
+#   bspc desktop -f '^1' ;firefox &;  bspc desktop -f '^2'; librewolf &;  bspc desktop -f '^3'  
+
+  # alacritty;
+  # bspc desktop -f '^2'&&
+  # librewolf&&
+  # bspc desktop -f '^3'&&
+  # xournalpp&&
+  # bspc desktop -f '^4'&&
+  # firefox
 
 #
 # bspwm hotkeys
@@ -27,6 +50,14 @@ alt + {f,w}
 super + alt + {q,r}
 	bspc {quit,wm -r}
 
+#shutdown
+super + alt + p 
+  poweroff
+   
+#reboot
+super + alt + o 
+  reboot
+
 # close and kill
 super + {_,shift + }q
 	bspc node -{c,k}
@@ -34,11 +65,12 @@ super + {_,shift + }q
 # 	bspc node -{k}
 
 #kill the polybar
-super+Shift+q
+super + 1
   killall polybar
+
 #then execute the polybar again
-super+Shift+p 
-  polybar example & 
+super + 2
+  /home/anand/.config/polybar/launch.sh
 
 # alternate between the tiled and monocle layout
 super + m
@@ -77,8 +109,10 @@ super + {p,b,comma,period}
 	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous window in the current desktop
-super + {_,shift + }c
-	bspc node -f {next,prev}.local.!hidden.window
+# super + {_,shift + }c
+# 	bspc node -f {next,prev}.local.!hidden.window
+super + {o,i}
+	bspc node -f {next.local.!hidden.window, prev.local.!hidden.window}
 
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
@@ -89,10 +123,10 @@ super + {grave,Tab}
 	bspc {node,desktop} -f last
 
 # focus the older or newer node in the focus history
-super + {o,i}
-	bspc wm -h off; \
-	bspc node {older,newer} -f; \
-	bspc wm -h on
+# super + {o,i}
+# 	bspc wm -h off; \
+# 	bspc node {older,newer} -f; \
+# 	bspc wm -h on
 
 # focus or send to the given desktop
 # super + {_,shift + }{1-9,0}
@@ -136,23 +170,20 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
+
 # volume and media controls
 
- XF86AudioPlay  
-    playerctl play-pause
- XF86AudioPause 
-    playerctl play-pause
- XF86AudioNext  
-    playerctl next
- XF86AudioPrev  
-    playerctl previous
+XF86AudioPlay
+ playerctl play-pause
 
-XF86AudioLowerVolume
-	amixer set Master 5%-
-XF86AudioRaiseVolume
-	amixer set Master 5%+
 XF86AudioMute
-  amixer set Master toggle
+ amixer -q -D pulse sset Master toggle &
+
+XF86Audio{Lower,Raise}Volume
+ amixer -q -D pulse sset Master 10%{-,+} unmute &
+
+# XF86Audio{Play,Prev,Next,Stop}
+ # ~/bin/mediacontrolkeys.sh {PlayPause,Previous,Next,Stop} &
 
 #lock screen
   super + x

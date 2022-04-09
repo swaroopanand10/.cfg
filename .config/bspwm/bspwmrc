@@ -4,12 +4,17 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10 
 
-bspc config border_width         2
+# CHANGING BORDER COLORS
+# normal_border_color
+bspc config focused_border_color "#52b0ef"
+bspc config active_border_color "#52b0ef"
+
+bspc config border_width         3
 bspc config window_gap          12
 
 bspc config split_ratio          0.52
-bspc config borderless_monocle   true
-bspc config gapless_monocle      true
+bspc config borderless_monocle   false
+bspc config gapless_monocle      false
 
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a Chromium desktop='^2'
@@ -18,16 +23,22 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 #executing polybar
-polybar example & 
+polybar example &
+# /home/anand/.config/polybar/launch.sh
 
 # executing feh for background
-# feh --bg-fill /home/anand/Pictures/archlinux3.png
+feh --bg-fill /home/anand/Pictures/archlinux3.png
+
+#spawning the greenclip daemon
+greenclip daemon &
+
+# executing polkit gnome
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+#playerctl 
+# playerctld daemon 
 
 #allowing mouse to change focus
 bspc config focus_follows_pointer true
 
-# CHANGING BORDER COLORS
-# normal_border_color
-bspc config focused_border_color "#52b0ef"
-bspc config active_border_color "#52b0ef"
 
