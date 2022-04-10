@@ -93,7 +93,7 @@ _open_files_for_editing() {
 # alias pacdiff=eos-pacdiff
 ################################################################################
 
-alias config='/usr/bin/git --git-dir=/home/anand/.cfg/ --work-tree=/home/anand'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias ll='lsd -alh'
 
 # PS1 customizations - 

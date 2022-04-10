@@ -19,7 +19,7 @@ PS1='%B%F{green} %~%f %F{red}%f%b '
 #                     
 
 #aliases
-alias config='/usr/bin/git --git-dir=/home/anand/.cfg/ --work-tree=/home/anand'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias ll='lsd -alh'
 alias ls='ls --color=auto'
 alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."

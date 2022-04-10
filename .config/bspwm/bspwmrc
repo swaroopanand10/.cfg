@@ -27,7 +27,7 @@ polybar example &
 # /home/anand/.config/polybar/launch.sh
 
 # executing feh for background
-feh --bg-fill /home/anand/Pictures/imagestuff/savedpictures/arch0.png
+feh --bg-fill $HOME/Pictures/imagestuff/savedpictures/arch.png
 
 
 #spawning the greenclip daemon
