@@ -3,7 +3,7 @@
 1). bspwm = sudo pacman -S bspwm
 2). sxhkd = sudo pacman -S sxhkd
 3). alacritty = sudo pacman -S alacritty
-4). neovim = sudo pacman -S neovim
+4). neovim = sudo pacman -S neovim (and also fix the colorscheme)
 5). feh = sudo pacman -S feh
 6). zsh = sudo pacman -S zsh
 7). antigen = make a dir "mkdir ~/.zsh/" and then install it by running "curl -L git.io/antigen > antigen.zsh" in that Dir
@@ -32,7 +32,7 @@
 30). pip = sudo pacman -S python-pip
 31). pynvim = pip install pynvim (for neovim python support)
 32). nodejs = sudo pacman -S nodejs
-33). nmp = sudo pacman -S npm 
+33). npm = sudo pacman -S npm 
 34). neovim node support = sudo npm i -g neovim
 35). touchegg = yay -S touchegg 
      Now enable the touchegg service manually- 
@@ -44,3 +44,19 @@
      systemctl start auto-cpufreq    # for starting the service 
      systemctl status auto-cpufreq   # for viewing the status of the service
      systemctl enable auto-cpufreq   # for enabling the service to persist even after restarts
+
+38). i3-gaps = sudo pacman -S i3-gaps (don't use it anymore,but still if needed)
+39). Fonts of your choice from nerdfonts or awesome-fonts etc. like jetbrains mono
+     also to refresh the fonts cache sometimes we have to run fc-cache -fv command
+40). ranger = sudo pacman -S ranger
+41). lightdm = sudo pacman -S lightdm
+
+Some other programs which also can be used if needed
+*). clipboard manager like xclip, copyQ, clipman etc 
+*). some login or lock-manager like = i3lock, ly, lightdm etc
+*). some gui filemanager like = pcmanfm, thunar
+*). vimhexokisane/vimcolorizer
+*). go language (can be needed as a dependency for many programs like hexokisane)
+*). some other cli file manager like = lf, nnn etc.
+*). fzf and ytfzf = fuzzyfinder and youtube fuzzyfinder
+*). some torrent client = like qbittorrent
