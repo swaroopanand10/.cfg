@@ -38,6 +38,9 @@ touchegg &
 # auto-cpufreq
 auto-cpufreq &
 
+# dunst 
+/usr/bin/dunst &
+
 # executing polkit gnome
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 

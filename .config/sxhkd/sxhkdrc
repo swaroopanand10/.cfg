@@ -182,6 +182,12 @@ XF86AudioMute
 XF86Audio{Lower,Raise}Volume
  amixer -q -D pulse sset Master 10%{-,+} unmute &
 
+# Sreen brightness control
+XF86MonBrightnessUp 
+   xbacklight -inc 20 # increase screen brightness
+XF86MonBrightnessDown
+   xbacklight -dec 20 # decrease screen brightness
+
 # XF86Audio{Play,Prev,Next,Stop}
  # ~/bin/mediacontrolkeys.sh {PlayPause,Previous,Next,Stop} &
 
