@@ -7,6 +7,11 @@
 5). feh = sudo pacman -S feh
 6). zsh = sudo pacman -S zsh
 7). antigen = make a dir "mkdir ~/.zsh/" and then install it by running "curl -L git.io/antigen > antigen.zsh" in that Dir
+    BUT THERE IS NOW NO NEED FOR ANY PLUGIN MANAGER as I only need 2 plugins - zsh syntax highlight and zsh auto suggesions
+    they can be added manually by git clone and source
+   a). git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/.zsh/
+   b). git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/.zsh/
+   and now just source all these two files (which is already done)
 8). polybar = sudo pacman -S polybar
 9). rofi = sudo pacman -S rofi
 10). dmenu = sudo pacman -S dmenu
@@ -50,6 +55,7 @@
      also to refresh the fonts cache sometimes we have to run fc-cache -fv command
 40). ranger = sudo pacman -S ranger
 41). lightdm = sudo pacman -S lightdm
+42). dunst = sudo pacman -S dunst
 
 Some other programs which also can be used if needed
 *). clipboard manager like xclip, copyQ, clipman etc 
