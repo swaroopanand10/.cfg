@@ -14,8 +14,8 @@
   <property name="zoomStep" value="10.00000000"/>
   <property name="zoomStepScroll" value="2.00000000"/>
   <property name="displayDpi" value="72"/>
-  <property name="mainWndWidth" value="1902"/>
-  <property name="mainWndHeight" value="1030"/>
+  <property name="mainWndWidth" value="1890"/>
+  <property name="mainWndHeight" value="1018"/>
   <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>

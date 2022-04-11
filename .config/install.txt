@@ -1,0 +1,46 @@
+# As of Now, This file will be used as a text file for storing all the program's names and their install methods.
+
+1). bspwm = sudo pacman -S bspwm
+2). sxhkd = sudo pacman -S sxhkd
+3). alacritty = sudo pacman -S alacritty
+4). neovim = sudo pacman -S neovim
+5). feh = sudo pacman -S feh
+6). zsh = sudo pacman -S zsh
+7). antigen = make a dir "mkdir ~/.zsh/" and then install it by running "curl -L git.io/antigen > antigen.zsh" in that Dir
+8). polybar = sudo pacman -S polybar
+9). rofi = sudo pacman -S rofi
+10). dmenu = sudo pacman -S dmenu
+11). lxappearance-gtk3(for customizing themes) = sudo pacman -S lxappearance-gtk3 (or install just lxappearance if needed)
+12). pamac = sudo pacman -S pamac (if needed)
+13). gparted = sudo pacman -S gparted (if needed)
+14). zathura = sudo pacman -S zathura 
+15). mpv = sudo pacman -S mpv
+16). yt-dlp = sudo pacman -S yt-dlp
+17). ff2mpv = it's a part of an extension so follow the instructions given in there
+18). sxiv = sudo pacman -S sxiv 
+19). picom = sudo pacman -S picom (if needed)
+20). xsel = sudo pacman -S xsel
+21). polkir-gnome = sudo pacman -S polkit-gnome
+22). ueberzug = install using pip (update it later) 
+23). playerctl = sudo pacman -S playerctl
+24). greenclip = yay -S rofi-greenclip (or just greenclip)
+25). librewolf = yay -S librewolf-bin
+26). xournalpp = sudo pacman -S xournalpp
+27). axel = sudo pacman -S axel (it's like IDM)
+28). ripgrep = sudo pacman -S ripgrep (important for grep function)
+29). python3 = sudo pacman -S python3
+30). pip = sudo pacman -S python-pip
+31). pynvim = pip install pynvim (for neovim python support)
+32). nodejs = sudo pacman -S nodejs
+33). nmp = sudo pacman -S npm 
+34). neovim node support = sudo npm i -g neovim
+35). touchegg = yay -S touchegg 
+     Now enable the touchegg service manually- 
+     $ sudo systemctl enable touchegg.service
+     $ sudo systemctl start touchegg
+
+36). auto-cpufreq = yay -S auto-cpufreq
+     Now perform these extra 3 steps
+     systemctl start auto-cpufreq    # for starting the service 
+     systemctl status auto-cpufreq   # for viewing the status of the service
+     systemctl enable auto-cpufreq   # for enabling the service to persist even after restarts

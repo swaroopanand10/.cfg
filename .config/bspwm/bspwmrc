@@ -29,9 +29,14 @@ polybar example &
 # executing feh for background
 feh --bg-fill $HOME/Pictures/imagestuff/savedpictures/arch.png
 
-
 #spawning the greenclip daemon
 greenclip daemon &
+ 
+# touchegg
+touchegg &
+ 
+# auto-cpufreq
+auto-cpufreq &
 
 # executing polkit gnome
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
