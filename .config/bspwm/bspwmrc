@@ -44,6 +44,9 @@ xset r rate 200 70
 # dunst 
 /usr/bin/dunst &
 
+#for setting the pointer
+# xsetroot -cursor_name left_ptr &
+
 # executing polkit gnome
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
