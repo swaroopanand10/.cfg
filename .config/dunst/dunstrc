@@ -202,7 +202,7 @@
 
     # Paths to default icons.
     #icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
-    icon_path = /usr/share/icons/Qogir/16/status:/usr/share/icons/Qogir/16/devices/:/usr/share/icons/Qogir/16/apps/:/usr/share/pixmaps/
+    icon_path = ~/.local/share/icons/Adwaita/16x16/devices/:~/.local/share/icons/Adwaita/16x16/status/:~/.local/share/icons/Adwaita/16x16/apps/:/usr/share/icons/Qogir/16/status:/usr/share/icons/Qogir/16/devices/:/usr/share/icons/Qogir/16/apps/:/usr/share/pixmaps/
 
     ### History ###
 
