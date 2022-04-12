@@ -7,7 +7,8 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 # The following lines were added by compinstall
-zstyle :compinstall filename '$HOME/.zshrc'
+# zstyle :compinstall filename '$HOME/.config/zsh/.zshrc'
+zstyle :compinstall filename '$ZDOTDIR/.zshrc'
 autoload -Uz compinit
 compinit
 zstyle ':completion:*' menu select
@@ -41,7 +42,6 @@ export EDITOR="$VISUAL"
 
 # path variable for go
 export PATH=$PATH:/usr/local/go/bin
-
 
 # enabling vi mode
 bindkey -v
