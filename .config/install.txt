@@ -56,6 +56,7 @@
 40). ranger = sudo pacman -S ranger
 41). lightdm = sudo pacman -S lightdm
 42). dunst = sudo pacman -S dunst
+43). materia-gtk-theme = sudo pacman -S materia-gtk-theme
 
 Some other programs which also can be used if needed
 *). clipboard manager like xclip, copyQ, clipman etc 

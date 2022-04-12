@@ -38,6 +38,9 @@ touchegg &
 # auto-cpufreq
 auto-cpufreq &
 
+# setting r rate(i copy pasted it here from .xprofile and deleted it from there)
+xset r rate 200 70
+
 # dunst 
 /usr/bin/dunst &
 
