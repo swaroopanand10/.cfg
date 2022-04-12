@@ -30,7 +30,7 @@ alias ls='ls --color=auto'
 alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
  
 # Some plugins
-source ~/.config/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # source ~/.zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh   #no need of it now
 # antigen bundle jeffreytse/zsh-vi-mode    # Now no need of it as I configured it myself
 # source ~/.zsh/antigen.zsh
@@ -86,7 +86,7 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 #sourcing zsh syntax highlighting at the end of the file
-source ~/.config/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # antigen bundle zsh-users/zsh-syntax-highlighting
 # antigen apply
