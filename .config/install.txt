@@ -57,6 +57,9 @@
 41). lightdm = sudo pacman -S lightdm
 42). dunst = sudo pacman -S dunst
 43). materia-gtk-theme = sudo pacman -S materia-gtk-theme
+44). adwaita-dark = yay -S adwaita-dark
+45). adwaita-icon-theme = sudo pacman -S adwaita-icon-theme  
+# An article at archwiki said that it is recommended to install hicolor-icon-theme  
 
 Some other programs which also can be used if needed
 *). clipboard manager like xclip, copyQ, clipman etc 
