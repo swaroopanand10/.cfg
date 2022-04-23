@@ -17,7 +17,8 @@ compinit
 _comp_options+=(globdots)   #include hidden files as well
 
 # PS1='%F{#52b0ef}%/%f %F{red}%f'
-PS1='%B%F{green} %~%f %F{red}%f%b '
+# PS1='%B%F{green} %~%f %F{red}%f%b '
+PS1='%B%F{#52b0ef} %~%f %F{red}%f%b '
 
 #SETTINGS TO BE ADDED IN /etc/bash.bashrc for root
 #PS1='[\u@\h \W]\$ '
