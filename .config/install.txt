@@ -11,7 +11,7 @@
     they can be added manually by git clone and source
    a). git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/.zsh/
    b). git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/.zsh/
-   and now just source all these two files (which is already done)
+   and now just source all these two files in zshrc (which is already done)
 8). polybar = sudo pacman -S polybar
 9). rofi = sudo pacman -S rofi
 10). dmenu = sudo pacman -S dmenu
@@ -60,6 +60,7 @@
 44). adwaita-dark = yay -S adwaita-dark
 45). adwaita-icon-theme = sudo pacman -S adwaita-icon-theme  
 # An article at archwiki said that it is recommended to install hicolor-icon-theme  
+46). go for arch = yay -S go (and the path for go is already added in zshrc and bashrc)
 
 Some other programs which also can be used if needed
 *). clipboard manager like xclip, copyQ, clipman etc 
