@@ -9,6 +9,10 @@ super + Return
 # program launcher
 super + p
 	rofi -show drun
+
+super + 9
+	rofi -show window
+
 super + d 
   dmenu_run
 
