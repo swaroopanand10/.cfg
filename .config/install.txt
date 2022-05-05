@@ -21,7 +21,8 @@
 14). zathura = sudo pacman -S zathura 
 15). mpv = sudo pacman -S mpv
 16). yt-dlp = sudo pacman -S yt-dlp
-17). ff2mpv = it's a part of an extension so follow the instructions given in there
+17). ff2mpv = git clone https://github.com/woodruffw/ff2mpv
+        
 18). sxiv = sudo pacman -S sxiv 
 19). picom = sudo pacman -S picom (if needed)
 20). xsel = sudo pacman -S xsel
@@ -61,6 +62,8 @@
 45). adwaita-icon-theme = sudo pacman -S adwaita-icon-theme  
 # An article at archwiki said that it is recommended to install hicolor-icon-theme  
 46). go for arch = yay -S go (and the path for go is already added in zshrc and bashrc)
+47). tmux = sudo pacman -S tmux  (config file in ~/.config/tmux/tmux.conf)
+48). tmux ressurect = git clone https://github.com/tmux-plugins/tmux-resurrect ~/.config/tmux/  (and then source this file on the bottom of tmux.conf)
 
 Some other programs which also can be used if needed
 *). clipboard manager like xclip, copyQ, clipman etc 
