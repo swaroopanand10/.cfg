@@ -22,7 +22,8 @@
 15). mpv = sudo pacman -S mpv
 16). yt-dlp = sudo pacman -S yt-dlp
 17). ff2mpv = git clone https://github.com/woodruffw/ff2mpv
-        
+  -> Don't clone the repository, instead just copy paste the ff2mpv python script into mpv folder and then source that path into ff2mpv.json file in .mozzila(already done)        
+    (instructions are also mentioned at their github page)
 18). sxiv = sudo pacman -S sxiv 
 19). picom = sudo pacman -S picom (if needed)
 20). xsel = sudo pacman -S xsel
