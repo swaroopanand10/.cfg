@@ -16,9 +16,10 @@
 9). rofi = sudo pacman -S rofi
 10). dmenu = sudo pacman -S dmenu
 11). lxappearance-gtk3(for customizing themes) = sudo pacman -S lxappearance-gtk3 (or install just lxappearance if needed)
-12). pamac = sudo pacman -S pamac (if needed)
+12). pamac = sudo pacman -S pamac or yay -S pamac and chose the 1st aur version
 13). gparted = sudo pacman -S gparted (if needed)
 14). zathura = sudo pacman -S zathura 
+    also install pdf-poppler- sudo pacman -S zathura-pdf-poppler
 15). mpv = sudo pacman -S mpv
 16). yt-dlp = sudo pacman -S yt-dlp
 17). ff2mpv = git clone https://github.com/woodruffw/ff2mpv
