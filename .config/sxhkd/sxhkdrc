@@ -29,12 +29,15 @@ super + 0
   rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 
 # execute file manager
-# super + 2
-#   pcmanfm
+super + 2
+ thunar
 
+# wifimenu list 
+super + w
+ ~/scripts/wifimenu.sh
 #Custom hotkeys for launching various applications
-# super +2
-#   alacritty desktop='^1' && librewolf desktop='^2' && xournalpp desktop='^3' && firefox desktop='^4'
+# super +3
+#   alacritty desktop='^1' , librewolf desktop='^2' , xournalpp desktop='^3' , firefox desktop='^4'
 # super + 1 
 #   bspc desktop -f '^1' ;firefox &;  bspc desktop -f '^2'; librewolf &;  bspc desktop -f '^3'  
 
@@ -73,8 +76,10 @@ super + 1
   killall polybar
 
 #then execute the polybar again
-super + 2
-  /home/anand/.config/polybar/launch.sh
+# super + 2
+#   polybar&
+  # /home/anand/.config/polybar/launch.sh
+
 
 # alternate between the tiled and monocle layout
 super + m

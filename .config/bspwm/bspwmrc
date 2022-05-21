@@ -10,7 +10,8 @@ bspc config focused_border_color "#52b0ef"
 bspc config active_border_color "#52b0ef"
 
 bspc config border_width         3
-bspc config window_gap          12
+# bspc config window_gap          12
+bspc config window_gap          16
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   false
@@ -36,6 +37,9 @@ greenclip daemon &
  
 # touchegg
 touchegg &
+ 
+#picom
+# picom &
  
 # auto-cpufreq
 auto-cpufreq &

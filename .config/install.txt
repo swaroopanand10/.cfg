@@ -59,13 +59,21 @@
 40). ranger = sudo pacman -S ranger
 41). lightdm = sudo pacman -S lightdm
 42). dunst = sudo pacman -S dunst
+
+(all the themes are already backedup in github)
+{
 43). materia-gtk-theme = sudo pacman -S materia-gtk-theme
 44). adwaita-dark = yay -S adwaita-dark
 45). adwaita-icon-theme = sudo pacman -S adwaita-icon-theme  
 # An article at archwiki said that it is recommended to install hicolor-icon-theme  
+}
+
 46). go for arch = yay -S go (and the path for go is already added in zshrc and bashrc)
 47). tmux = sudo pacman -S tmux  (config file in ~/.config/tmux/tmux.conf)
 48). tmux ressurect = git clone https://github.com/tmux-plugins/tmux-resurrect ~/.config/tmux/  (and then source this file on the bottom of tmux.conf)
+49). qbittorrent = sudo pacman -S qbittorrent
+50). bat = sudo pacman -S bat
+51).     
 
 Some other programs which also can be used if needed
 *). clipboard manager like xclip, copyQ, clipman etc 
