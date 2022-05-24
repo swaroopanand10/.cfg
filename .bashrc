@@ -10,6 +10,9 @@ bind '"jk":vi-movement-mode'
 bind '"kj":vi-movement-mode'
 
 
+### "bat" as manpager
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
