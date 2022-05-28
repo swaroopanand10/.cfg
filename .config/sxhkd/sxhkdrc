@@ -34,7 +34,8 @@ super + 2
 
 # wifimenu list 
 super + 3
- ~/scripts/wifimenu.sh
+  ~/scripts/rofi-network-manager/rofi-network-manager.sh
+ # ~/scripts/wifimenu.sh
 super + w
  ~/scripts/nmcli_rofi/nmcli_rofi.sh
 #Custom hotkeys for launching various applications
