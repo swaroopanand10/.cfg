@@ -1,5 +1,5 @@
 map u scroll half-up
-map i scroll half-down
+map d scroll half-down
 set recolor true
 
 set scroll-step 50
