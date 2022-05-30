@@ -71,6 +71,7 @@
 46). go for arch = yay -S go (and the path for go is already added in zshrc and bashrc)
 47). tmux = sudo pacman -S tmux  (config file in ~/.config/tmux/tmux.conf)
 48). tmux ressurect = git clone https://github.com/tmux-plugins/tmux-resurrect ~/.config/tmux/  (and then source this file on the bottom of tmux.conf)
+     (you many have to edit some file to change the default directry for saving the sessions)
 49). qbittorrent = sudo pacman -S qbittorrent
 50). bat = sudo pacman -S bat
 51).     
