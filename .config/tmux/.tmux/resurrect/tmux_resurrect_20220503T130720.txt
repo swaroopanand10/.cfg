@@ -1,0 +1,5 @@
+pane	0	1	1	:*	1	swaroop-inspiron3501	:/home/swaroop/Desktop/cf	1	nvim	:nvim
+pane	0	2	0	:-	1	swaroop-inspiron3501	:/home/swaroop/Desktop/cf	1	zsh	:
+window	0	1	:nvim	1	:*	bbbf,135x34,0,0,2	:
+window	0	2	:zsh	0	:-	bbc0,135x34,0,0,3	:
+state	0	
