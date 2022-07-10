@@ -30,16 +30,13 @@ polybar example &
 # /home/anand/.config/polybar/launch.sh
 
 # executing feh for background
-feh --bg-fill $HOME/Pictures/imagestuff/savedpictures/arch.png
+feh --bg-fill $HOME/Pictures/imagestuff/savedpictures/trains.jpg
 
 #spawning the greenclip daemon
 greenclip daemon &
  
 # touchegg
 touchegg &
- 
-#picom
-# picom &
  
 # auto-cpufreq
 auto-cpufreq &
@@ -63,3 +60,5 @@ xset r rate 200 70
 bspc config focus_follows_pointer true
 
 
+#picom
+picom --config $HOME/.config/picom/picom.conf &
