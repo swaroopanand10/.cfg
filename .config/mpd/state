@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:Visualizer feed
 state: pause
-current: 2
-time: 131.835000
+current: 5
+time: 52.542000
 random: 0
 repeat: 1
 single: 0
@@ -12,7 +12,10 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:lf/am/(FREE) lofi x joji type beat - whisper _ sad lofi beat [Vss51shiGMs].opus
-1:lf/am/Light's Theme lofi - Death Note [I0vAbItsM3I].opus
-2:lf/am/isabella's lullaby (The Promised Neverland lofi) [JdK3QhU9joY].opus
+0:lf/am/isabella's lullaby (The Promised Neverland lofi) [JdK3QhU9joY].opus
+1:lf/Ashes on The Fire lofi (attack on titan season 4) [2p5aVcNJ0sY].opus
+2:lf/T-KT.mp3
+3:lf/Unravel (From Tokyo Ghoul) - Lofi Remix.mp3
+4:lf/My War (From Attack on Titan).mp3
+5:lf/Guns for Hire (Arcane Lofi).mp3
 playlist_end

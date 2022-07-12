@@ -77,7 +77,7 @@
 51). nmcpcpp = sudo pacman -S nmcpcpp
 52). mpd = sudo pacman -S mpd
 53). mpc = sudo pacman -S mpc
-54). spotify-dl = yay -S spotify-dl-git
+54). SwapnilSoni1999/spotify-dl = npm install -g spotify-dl
 
 Some other programs which also can be used if needed
 *). clipboard manager like xclip, copyQ, clipman etc 

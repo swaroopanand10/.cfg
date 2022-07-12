@@ -47,6 +47,7 @@ alias mux='pgrep -vx tmux > /dev/null && \
 		tmux attach || tmux attach'
 alias grep='grep --color'
  # alias mux='pgrep -vxq tmux && tmux new -d -s delete-me && tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/restore.sh && tmux kill-session -t delete-me && tmux attach || tmux attach'
+alias yta='yt-dlp -x -f bestaudio'
 
 # Some plugins
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
