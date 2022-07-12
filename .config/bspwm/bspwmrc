@@ -65,6 +65,6 @@ xset r rate 200 70
 #allowing mouse to change focus
 bspc config focus_follows_pointer true
 
-
 #picom
-picom --config $HOME/.config/picom/picom.conf &
+# picom -b --config $HOME/.config/picom/picom.conf &
+picom &

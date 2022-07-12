@@ -1,7 +1,0 @@
-pane	cpp	1	0	:-	1	swaroop-inspiron3501	:/home/swaroop/Desktop/cf	1	nvim	:nvim
-pane	cpp	2	1	:*	1	swaroop-inspiron3501	:/home/swaroop/Desktop/cf	1	zsh	:
-pane	delete-me	1	1	:*	1	swaroop-inspiron3501	:/home/swaroop	1	zsh	:
-window	cpp	1	:nvim	0	:-	bbbe,135x34,0,0,1	:
-window	cpp	2	:zsh	1	:*	bbbf,135x34,0,0,2	:
-window	delete-me	1	:zsh	1	:*	bbc0,135x34,0,0,3	:
-state	cpp	

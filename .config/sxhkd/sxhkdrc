@@ -202,6 +202,9 @@ XF86AudioMute
 XF86Audio{Lower,Raise}Volume
  amixer -q -D pulse sset Master 10%{-,+} unmute &
 
+alt + a
+ mpc toggle
+
 # Sreen brightness control
 XF86MonBrightnessUp 
    xbacklight -inc 20 # increase screen brightness
@@ -212,6 +215,6 @@ XF86MonBrightnessDown
  # ~/bin/mediacontrolkeys.sh {PlayPause,Previous,Next,Stop} &
 
 #lock screen
-  super + x
+super + x
 	betterlockscreen -l dimblur
 
