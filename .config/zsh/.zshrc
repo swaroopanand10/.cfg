@@ -48,6 +48,8 @@ alias mux='pgrep -vx tmux > /dev/null && \
 alias grep='grep --color'
  # alias mux='pgrep -vxq tmux && tmux new -d -s delete-me && tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/restore.sh && tmux kill-session -t delete-me && tmux attach || tmux attach'
 alias yta='yt-dlp -x -f bestaudio'
+alias lf='~/.config/lf/lfub'
+alias ncm='ncmpcpp'
 
 # Some plugins
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -99,6 +101,17 @@ bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
+# Use lf to switch directories and bind it to ctrl-o
+lfcd () {
+    tmp="$(mktemp -uq)"
+    trap 'rm -f $tmp >/dev/null 2>&1' HUP INT QUIT TERM PWR EXIT
+    lf -last-dir-path="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+    fi
+}
+bindkey -s '^a' '^ulfcd\n'
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line

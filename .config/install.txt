@@ -29,7 +29,7 @@
 19). picom = sudo pacman -S picom (if needed)
 20). xsel = sudo pacman -S xsel
 21). polkir-gnome = sudo pacman -S polkit-gnome
-22). ueberzug = install using pip (update it later) 
+22). ueberzug = yay -S ueberzug (can also be installed with pip)
 23). playerctl = sudo pacman -S playerctl
 24). greenclip = yay -S rofi-greenclip (or just greenclip)
 25). librewolf = yay -S librewolf-bin
@@ -78,6 +78,7 @@
 52). mpd = sudo pacman -S mpd
 53). mpc = sudo pacman -S mpc
 54). SwapnilSoni1999/spotify-dl = npm install -g spotify-dl
+55). lf file manager = sudo pacman -S lf
 
 Some other programs which also can be used if needed
 *). clipboard manager like xclip, copyQ, clipman etc 
