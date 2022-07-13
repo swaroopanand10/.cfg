@@ -31,9 +31,11 @@ bspc rule -a Screenkey manage=off
 
 # setting zathura for tiling mode
 bspc rule -a Zathura state=tiled
+
 #executing polybar
 polybar -r example &
 # /home/anand/.config/polybar/launch.sh
+nm-applet &
 
 # executing feh for background
 feh --bg-fill $HOME/Pictures/imagestuff/savedpictures/trains.jpg
