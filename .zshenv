@@ -1,6 +1,9 @@
 #setting location for zsh config files
 export ZDOTDIR="$HOME/.config/zsh"
 
+# export PATH=$PATH:/home/swaroop/scripts/ doing this again so that no need to restart login everytime
+PATH=${PATH}:$(find $HOME/scripts/ -type d -printf ":%p")
+
 # lf icons
 export LF_ICONS="\
 tw=:\

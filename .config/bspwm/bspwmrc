@@ -65,6 +65,9 @@ xset r rate 200 70
 #allowing mouse to change focus
 bspc config focus_follows_pointer true
 
+#bspswallow 
+pgrep bspswallow || bspswallow &
+
 #picom
 # picom -b --config $HOME/.config/picom/picom.conf &
 picom &

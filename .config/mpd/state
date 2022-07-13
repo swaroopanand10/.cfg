@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:Visualizer feed
-state: play
-current: 24
-time: 59.340000
+state: pause
+current: 28
+time: 168.072000
 random: 0
 repeat: 1
 single: 1
@@ -37,4 +37,8 @@ playlist_begin
 22:nm/Blue [nDBK2k0FwB8].opus
 23:nm/Lenka - Everything At Once (Lyrics) [56tBagXBH5A].opus
 24:nm/Marvel's Daredevil - Opening Titles - Now Streaming on Netflix [KFYFh8w4758].opus
+25:nm/Mozart - Lacrimosa [k1-TrAvp_xs].opus
+26:nm/Sia - Courage To Change (Lyric Video) [YAA8vaDfCRk].opus
+27:nm/Billie Eilish - lovely (Lyrics) ft. Khalid [xirk18P889U].opus
+28:nm/Dream a Little Dream of Me (Cover) [5G5xyRW_t50].opus
 playlist_end
