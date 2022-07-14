@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:Visualizer feed
-state: play
-current: 3
-time: 112.427000
+state: pause
+current: 7
+time: 117.038000
 random: 0
 repeat: 1
 single: 1
@@ -12,21 +12,12 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:am/Attack on Titan OST - Apple Seed『Berthold Transformation Theme』 [WA-ousOPfiU].opus
-1:am/Attack on Titan OST - Before Lights Out『Erwin's Charge Theme』 [ipI1qRFo1Us].opus
-2:am/Attack on Titan OST - Vogel im Kafig Best Part Extended [8L9XIsaIass].opus
-3:am/Attack on Titan S2 OST - YOUSEEBIGGIRL_T -T (Reiner and Berthold transformation theme) [pa00z_Bp2j4].opus
-4:am/Hunter x Hunter 2011 OST - Restriction and Pledge [extended] [lJ8NY9_i45M].opus
-5:am/Hisoka bloodlust Meimou Remix [_YA0CpfZGtI].opus
-6:am/Attack on Titan OST - Vogel im Kafig Best Part Extended [8L9XIsaIass].opus
-7:am/Attack on Titan S2 OST - YOUSEEBIGGIRL_T -T (Reiner and Berthold transformation theme) [pa00z_Bp2j4].opus
-8:am/Attack on Titan Season 2 OST 03 - YouSeeBIGGIRL_T -T LYRICS (Reiner Berthold Transformation Theme) [yyZV-btQmx8].opus
-9:am/Attack on Titan Season 3 OST - ətˈæk 0N tάɪtn WMId (Vocal - Eliana) [tOF7A6E5JXA].opus
-10:am/Cö shu Nie-Asphyxia (Audio) [ttFDJEImyVs].opus
-11:am/Demon Slayer - Zenitsu Theme (KI BEATS TRAP REMIX) [qDLVweBnCJw].opus
-12:am/Hisoka bloodlust Meimou Remix [_YA0CpfZGtI].opus
-13:am/Hunter x Hunter (2011) OST - Hyōri Ittai ~ Lamento for piano [7X3Me4qPTY8].opus
-14:am/Hunter x Hunter 2011 OST - Restriction and Pledge [extended] [lJ8NY9_i45M].opus
-15:lf/Demon slayer(Kimetsu no Yaiba) inspired lofi beat [h1XxjPeducs].opus
-16:lf/departure (Hunter x Hunter but is it okay if it's lofi hiphop) [7lKmet1dOiU].opus
+0:am/Demon Slayer - Zenitsu Theme (KI BEATS TRAP REMIX) [qDLVweBnCJw].opus
+1:am/Demon Slayer - Zenitsu Theme (KI BEATS TRAP REMIX) [qDLVweBnCJw].opus
+2:am/Attack on Titan OST - Vogel im Kafig Best Part Extended.opus
+3:nm/28dayslater.mp3
+4:am/Attack on Titan OST - Apple Seed『Berthold Transformation Theme.opus
+5:am/Attack on Titan OST - Before Lights Out『Erwin's Charge Theme.opus
+6:am/Attack on Titan S2 OST - YOUSEEBIGGIRL_T -T (Reiner and Berthold transformation theme) .opus
+7:nm/Stranger Things Theme Song (C418 REMIX).opus
 playlist_end
