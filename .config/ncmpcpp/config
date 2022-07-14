@@ -14,19 +14,49 @@ current_item_prefix = $(cyan)$r$b
 current_item_suffix = $/r$(end)$/b
 current_item_inactive_column_prefix = $(magenta)$r
 current_item_inactive_column_suffix = $/r$(end)
-playlist_display_mode = columns
-browser_display_mode = columns
-progressbar_look = ->
+# progressbar_look = ->
 media_library_primary_tag = album_artist
+# media_library_primary_tag = song
 media_library_albums_split_by_date = no
-startup_screen = "media_library"
-display_volume_level = no
+# startup_screen = "media_library"
+startup_screen = "browser"
+display_volume_level = yes
 ignore_leading_the = yes
 external_editor = nvim
 use_console_editor = yes
 empty_tag_color = magenta
-main_window_color = white
+# main_window_color = white
+main_window_color = red
 progressbar_color = black:b
 progressbar_elapsed_color = blue:b
 statusbar_color = red
 statusbar_time_color = cyan:b
+
+##user interface 
+user_interface = "classic"
+
+## Display Modes ##
+playlist_editor_display_mode = "columns"
+search_engine_display_mode = "columns"
+browser_display_mode = "columns"
+playlist_display_mode = "columns"
+ 
+## Song List ##
+song_columns_list_format = "(10)[blue]{l} (30)[green]{f} 
+
+## Navigation ##
+# cyclic_scrolling = "yes"
+header_text_scrolling = "yes"
+# jump_to_now_playing_song_at_start = "yes"
+lines_scrolled = "2"
+
+## Progress Bar ##
+progressbar_look =  "=>-"
+
+## Now Playing ##
+now_playing_prefix = "> "
+centered_cursor = "yes"
+
+## Selected tracks ##
+selected_item_prefix = "* "
+discard_colors_if_item_is_selected = "no"

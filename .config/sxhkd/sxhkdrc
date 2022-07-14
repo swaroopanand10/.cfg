@@ -33,11 +33,15 @@ super + 2
  thunar
 
 # wifimenu list 
-super + 3
-  ~/scripts/rofi-network-manager/rofi-network-manager.sh
+# super + 3
+#   ~/scripts/rofi-network-manager/rofi-network-manager.sh
 
 super + w
  ~/scripts/wifi/nmcli_rofi/nmcli_rofi.sh
+
+#rofi calculator
+alt + c
+ rofi -show calc -modi calc -no-show-match -no-sort
 
 #Custom hotkeys for launching various applications
 # super +3

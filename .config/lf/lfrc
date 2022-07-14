@@ -104,7 +104,8 @@ map C copyto
 map M moveto
 map <c-n> push :mkdir<space>
 map <c-r> reload
-map <c-s> set hidden!
+# map <c-s> set hidden!
+map . set hidden!
 map <enter> shell
 map x $$f
 map X !$f
@@ -127,7 +128,7 @@ map W $setsid -f $TERMINAL >/dev/null 2>&1
 
 map Y $printf "%s" "$fx" | xclip -selection clipboard
 
-map gc cd ~/.config
+# map gc cd ~/.config (not working for some reason)
 
 # Source Bookmarks
 source "~/.config/lf/shortcutrc"

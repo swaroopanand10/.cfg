@@ -1,10 +1,12 @@
-def_key "+"
-    show_clock
 def_key "="
+    show_clock
+
+def_key "+"
     volume_up
 
 def_key "j"
     scroll_down
+
 def_key "k"
     scroll_up
 
@@ -28,16 +30,25 @@ def_key "l"
 def_key "."
     show_lyrics
 
+def_key "K"
+  select_item
+  scroll_up
+
+def_key "J"
+  select_item
+  scroll_down
+
 def_key "n"
     next_found_item
+
 def_key "N"
     previous_found_item
 
 # not used but bound
-def_key "J"
-    move_sort_order_down
-def_key "K"
-    move_sort_order_up
+#def_key "J"
+#    move_sort_order_down
+#def_key "K"
+#    move_sort_order_up
 def_key "h"
   jump_to_parent_directory
 def_key "l"
@@ -58,7 +69,9 @@ def_key "G"
   move_end
 def_key "g"
   move_home
+
 #jump_to_position_in_song
+
 def_key "U"
   update_database
 def_key "s"

@@ -120,13 +120,13 @@ bindkey -s '^a' '^ulfcd\n'
 # fd - cd to any directory in Home including hidden directories
 fd() {
   local dir
-  dir=$(find ${1:-~} -type d 2> /dev/null | fzf +m) && cd "$dir"
+  dir=$(find ${1:-~} -type d 2> /dev/null | fzf --layout=reverse +m) && cd "$dir"
 }
 
 # script to search and open pdf in ~/
 fp() {
   local pdf
-  pdf=$(find ${1:-~} -name '*.pdf' 2> /dev/null | fzf +m) && zathura "$pdf"
+  pdf=$(find ${1:-~} -name '*.pdf' 2> /dev/null | fzf --layout=reverse +m) && zathura "$pdf"
 }
 
 # script to search and open files in ~/
@@ -143,7 +143,7 @@ fe() {
   -not -name "*.opus"\
   -not -name "*.docx"\
   -type f \
-  2> /dev/null | fzf +m) && nvim "$file"  
+  2> /dev/null | fzf --layout=reverse +m) && nvim "$file"  
 }
 
 # Edit line in vim with ctrl-e:
