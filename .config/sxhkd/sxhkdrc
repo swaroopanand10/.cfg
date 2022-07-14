@@ -25,37 +25,19 @@ alt + {f,w}
   {firefox, librewolf}
 
 # rofi greenclip clipboard manager
-super + 0
+alt + c
   rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 
 # execute file manager
 super + 2
  thunar
 
-# wifimenu list 
-# super + 3
-#   ~/scripts/rofi-network-manager/rofi-network-manager.sh
-
 super + w
  ~/scripts/wifi/nmcli_rofi/nmcli_rofi.sh
 
 #rofi calculator
-alt + c
+super + 0
  rofi -show calc -modi calc -no-show-match -no-sort
-
-#Custom hotkeys for launching various applications
-# super +3
-#   alacritty desktop='^1' , librewolf desktop='^2' , xournalpp desktop='^3' , firefox desktop='^4'
-# super + 1 
-#   bspc desktop -f '^1' ;firefox &;  bspc desktop -f '^2'; librewolf &;  bspc desktop -f '^3'  
-
-  # alacritty;
-  # bspc desktop -f '^2'&&
-  # librewolf&&
-  # bspc desktop -f '^3'&&
-  # xournalpp&&
-  # bspc desktop -f '^4'&&
-  # firefox
 
 #
 # bspwm hotkeys
@@ -82,20 +64,8 @@ super + {_,shift + }q
 #toggle the polybar
 super + 1
  {polybar-msg cmd hide; bspc config -m focused top_padding 0, polybar-msg cmd show; bspc config -m focused top_padding 16}
-
-#   killall polybar
-# toggle bar and resize
-# super + shift + b
-
-# super + 3
     # polybar-msg cmd hide && bspc config -m focused top_padding $((`bspc config -m focused top_padding` - 30 ))
     # killall polybar && bspc config -m focused top_padding $((`bspc config -m focused top_padding` - 28 ))
-
-#then execute the polybar again
-# super + 2
-#   polybar&
-  # /home/anand/.config/polybar/launch.sh
-
 
 # alternate between the tiled and monocle layout
 super + m
@@ -223,3 +193,5 @@ XF86MonBrightnessDown
 super + x
 	betterlockscreen -l dimblur
 
+super + shift + x
+	betterlockscreen -s dimblur #for sending it to sleep and locking

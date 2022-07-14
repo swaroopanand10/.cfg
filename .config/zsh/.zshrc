@@ -53,6 +53,7 @@ alias grep='grep --color'
 alias yta='yt-dlp -x -f bestaudio'
 alias lf='~/.config/lf/lfub'
 alias ncm='ncmpcpp'
+alias nb='newsboat'
 
 # Some plugins
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -121,6 +122,11 @@ bindkey -s '^a' '^ulfcd\n'
 fd() {
   local dir
   dir=$(find ${1:-~} -type d 2> /dev/null | fzf --layout=reverse +m) && cd "$dir"
+}
+
+# exactly same as fzf but also includes hidden files
+fzfh(){
+  find ${1:-~} 2> /dev/null | fzf --layout=reverse +m
 }
 
 # script to search and open pdf in ~/

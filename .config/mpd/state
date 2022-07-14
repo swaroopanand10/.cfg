@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:Visualizer feed
 state: pause
-current: 7
-time: 117.038000
+current: 12
+time: 13.274000
 random: 0
 repeat: 1
 single: 1
@@ -20,4 +20,9 @@ playlist_begin
 5:am/Attack on Titan OST - Before Lights Out『Erwin's Charge Theme.opus
 6:am/Attack on Titan S2 OST - YOUSEEBIGGIRL_T -T (Reiner and Berthold transformation theme) .opus
 7:nm/Stranger Things Theme Song (C418 REMIX).opus
+8:lf/a cruel angel's thesis (Neon Genesis Evangelion but is it okay if it's lofi hiphop).opus
+9:lf/next to you (Parasyte but is it okay if it's lofi hiphop).opus
+10:am/YouSeeBIGGIRL_T -T (Good Part Extended).opus
+11:am/Zenitsu Theme V2 (Thunder Clap and Flash!).opus
+12:am/Ray's Retaliation.opus
 playlist_end

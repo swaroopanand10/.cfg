@@ -1,5 +1,6 @@
 # As of Now, This file will be used as a text file for storing all the program's names and their install methods.
 
+*). paru = yay -S paru
 1). bspwm = sudo pacman -S bspwm
 2). sxhkd = sudo pacman -S sxhkd
 3). alacritty = sudo pacman -S alacritty
@@ -80,6 +81,10 @@
 54). SwapnilSoni1999/spotify-dl = npm install -g spotify-dl
 55). lf file manager = sudo pacman -S lf
 56). fzf = sudo pacman -S fzf
+57). rofi_calc = sudo pacman -S rofi-calc
+58). newsboat = sudo pacman -S newsboat
+59). betterlockscreen = yay -S betterlockscreen (after installing run the command- betterlockscreen -u /path/to/image) 
+60). urlscan = yay -S urlscan 
 
 Some other programs which also can be used if needed
 *). clipboard manager like xclip, copyQ, clipman etc 
