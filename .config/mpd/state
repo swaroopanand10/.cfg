@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:Visualizer feed
 state: pause
-current: 12
-time: 13.274000
+current: 23
+time: 48.945000
 random: 0
 repeat: 1
 single: 1
@@ -25,4 +25,15 @@ playlist_begin
 10:am/YouSeeBIGGIRL_T -T (Good Part Extended).opus
 11:am/Zenitsu Theme V2 (Thunder Clap and Flash!).opus
 12:am/Ray's Retaliation.opus
+13:am/Hunter X Hunter Soundtrack - Hirano - Meimou.opus
+14:am/Hunter x Hunter 2011 Unreleased Soundtrack - Ansatsu Ikka no Yakata (No Choir).opus
+15:am/Attack on Titan Season 3 OST - ətˈæk 0N tάɪtn WMId (Vocal - Eliana).opus
+16:am/Cö shu Nie-Asphyxia (Audio).opus
+17:am/My War - Attack on Titan Season 4 Opening Metal Cover.opus
+18:am/Most Heartful Anime OST - REASON ~Instrumental.opus
+19:am/Link Click S1 OST _ [15 Pray].opus
+20:am/Hunter x Hunter (2011) OST - Hyōri Ittai ~ Lamento for piano.opus
+21:am/Attack on Titan - Vogel im Käfig (Feora Remix).opus
+22:am/Attack on Titan - YOUSEEBIGGIRL_T -T (Apple Seed x Vogel Im Kafig) _ EPIC COVER.opus
+23:am/Hunter x Hunter 2011 OST - Restriction and Pledge [extended].opus
 playlist_end

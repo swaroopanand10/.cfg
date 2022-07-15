@@ -15,6 +15,8 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 ### "nvim" as manpager
 # export MANPAGER="nvim -c 'set ft=man' -"
 
+### "fzf keybinding sourcing"
+source ~/.config/zsh/fzfkeybinding.zsh
 
 # The following lines were added by compinstall
 # zstyle :compinstall filename '$HOME/.config/zsh/.zshrc'
@@ -125,9 +127,15 @@ fd() {
 }
 
 # exactly same as fzf but also includes hidden files
-fzfh(){
-  find ${1:-~} 2> /dev/null | fzf --layout=reverse +m
-}
+# fzh(){
+#   find ${1:-~} 2> /dev/null | fzf --layout=reverse +m
+# }
+#
+# fzr(){
+#   find ${1:-/} 2> /dev/null | fzf --layout=reverse +m
+# }
+#
+# bindkey -s '^f' 'fzh\n'
 
 # script to search and open pdf in ~/
 fp() {
@@ -155,6 +163,7 @@ fe() {
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
+
 
 #sourcing zsh syntax highlighting at the end of the file
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
