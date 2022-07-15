@@ -126,6 +126,11 @@ fd() {
   dir=$(find ${1:-~} -type d 2> /dev/null | fzf --layout=reverse +m) && cd "$dir"
 }
 
+# same as fd but for /
+frd() {
+  local dir
+  dir=$(find ${1:-/} -type d 2> /dev/null | fzf --layout=reverse +m) && cd "$dir"
+}
 # exactly same as fzf but also includes hidden files
 # fzh(){
 #   find ${1:-~} 2> /dev/null | fzf --layout=reverse +m
@@ -147,6 +152,23 @@ fp() {
 fe() {
   local file
   file=$(find ${1:-~} -not -name "*.exe"\
+  -not -name "*.out"\
+  -not -name "*.pdf"\
+  -not -name "*.jpg"\
+  -not -name "*.png"\
+  -not -name "*.jpeg"\
+  -not -name "*.tar"\
+  -not -name "*.mp3"\
+  -not -name "*.opus"\
+  -not -name "*.docx"\
+  -type f \
+  2> /dev/null | fzf --layout=reverse +m) && nvim "$file"  
+}
+
+# same as fe but from /
+fre() {
+  local file
+  file=$(find ${1:-/} -not -name "*.exe"\
   -not -name "*.out"\
   -not -name "*.pdf"\
   -not -name "*.jpg"\
