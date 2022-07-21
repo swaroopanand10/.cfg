@@ -3,3 +3,6 @@ map d scroll half-down
 set recolor true
 
 set scroll-step 50
+set adjust-open "full-width"
+#set adjust-open "best-fit"
+

@@ -1,4 +1,3 @@
-
 HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
@@ -12,7 +11,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 ### "vim" as manpager
 # export MANPAGER='/bin/bash -c "vim -MRn -c \"set buftype=nofile showtabline=0 ft=man ts=8 nomod nolist norelativenumber nonu noma\" -c \"normal L\" -c \"nmap q :qa<CR>\"</dev/tty <(col -b)"'
 
-### "nvim" as manpager
+## "nvim" as manpager
 # export MANPAGER="nvim -c 'set ft=man' -"
 
 ### "fzf keybinding sourcing"
@@ -56,6 +55,8 @@ alias yta='yt-dlp -x -f bestaudio'
 alias lf='~/.config/lf/lfub'
 alias ncm='ncmpcpp'
 alias nb='newsboat'
+alias v='nvim'
+
 
 # Some plugins
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -69,6 +70,9 @@ export EDITOR="$VISUAL"
 
 # path variable for go
 export PATH=$PATH:/usr/local/go/bin
+
+#fzf will find hidden files after this
+export FZF_DEFAULT_COMMAND="find -L"
 
 # enabling vi mode
 bindkey -v
@@ -117,7 +121,7 @@ lfcd () {
         [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
     fi
 }
-bindkey -s '^a' '^ulfcd\n'
+bindkey -s '^f' '^ulfcd\n'
 
 
 # fd - cd to any directory in Home including hidden directories
@@ -131,16 +135,11 @@ frd() {
   local dir
   dir=$(find ${1:-/} -type d 2> /dev/null | fzf --layout=reverse +m) && cd "$dir"
 }
-# exactly same as fzf but also includes hidden files
-# fzh(){
-#   find ${1:-~} 2> /dev/null | fzf --layout=reverse +m
-# }
-#
-# fzr(){
-#   find ${1:-/} 2> /dev/null | fzf --layout=reverse +m
-# }
-#
-# bindkey -s '^f' 'fzh\n'
+
+# same as fzf but for /
+frz(){
+  find ${1:-/} 2> /dev/null | fzf --layout=reverse +m
+}
 
 # script to search and open pdf in ~/
 fp() {
@@ -162,7 +161,7 @@ fe() {
   -not -name "*.opus"\
   -not -name "*.docx"\
   -type f \
-  2> /dev/null | fzf --layout=reverse +m) && nvim "$file"  
+  2> /dev/null | fzf --layout=reverse +m --preview='bat --color=always {}') && nvim "$file"  
 }
 
 # same as fe but from /
@@ -179,7 +178,7 @@ fre() {
   -not -name "*.opus"\
   -not -name "*.docx"\
   -type f \
-  2> /dev/null | fzf --layout=reverse +m) && nvim "$file"  
+  2> /dev/null | fzf --layout=reverse +m --preview='bat --color=always {}') && nvim "$file"  
 }
 
 # Edit line in vim with ctrl-e:
