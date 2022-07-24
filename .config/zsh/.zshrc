@@ -52,11 +52,13 @@ alias mux='pgrep -vx tmux > /dev/null && \
 alias grep='grep --color'
  # alias mux='pgrep -vxq tmux && tmux new -d -s delete-me && tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/restore.sh && tmux kill-session -t delete-me && tmux attach || tmux attach'
 alias yta='yt-dlp -x -f bestaudio'
+alias ytv='yt-dlp '
 alias lf='~/.config/lf/lfub'
 alias ncm='ncmpcpp'
 alias nb='newsboat'
 alias v='nvim'
-
+alias yt='ytfzf'
+alias ytt='ytfzf -t'
 
 # Some plugins
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -124,11 +126,28 @@ lfcd () {
 bindkey -s '^f' '^ulfcd\n'
 
 
+# Using fzf for installing and finding packages
+# note: first run this "sudo pacman -Fy" # <- only run this once
+
+pac() {
+ pacman -Slq | fzf --layout=reverse -m --preview  'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S 
+}
+
+aur(){
+ yay -Slq | fzf --layout=reverse -m --preview  'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S
+}
+
+par(){
+ paru -Slq | fzf --layout=reverse -m --preview  'cat <(paru -Si {1}) <(paru -Fl {1} | awk "{print \$2}")' | xargs -ro  paru -S
+}
+
+
 # fd - cd to any directory in Home including hidden directories
 fd() {
   local dir
   dir=$(find ${1:-~} -type d 2> /dev/null | fzf --layout=reverse +m) && cd "$dir"
 }
+
 
 # same as fd but for /
 frd() {

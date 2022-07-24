@@ -51,11 +51,14 @@ bindsym $mod+Return exec alacritty
 # start firefox
 bindsym $alt+f exec firefox
 
+# start brave 
+bindsym $alt+b exec brave
+
 # start librewolf
 bindsym $alt+w exec librewolf
 
 # start thunar
-bindsym $mod+Shift+Return exec pcmanfm 
+# bindsym $mod+Shift+Return exec pcmanfm 
 
 # kill focused window
 bindsym $mod+q kill

@@ -38,6 +38,9 @@ api.unmap('gE');
 api.unmap('ge');
 api.unmap('g');
 api.unmap('e');
+api.unmap('z');
+api.unmap('y');
+api.unmap('yy');
 
 // set theme
 settings.theme = `

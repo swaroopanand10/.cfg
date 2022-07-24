@@ -20,3 +20,5 @@ configuration {
 //@theme "/usr/share/rofi/themes/dmenu.rasi"
 //@theme "/usr/share/rofi/themes/sidebar.rasi"
 @theme "customtheme.rasi"
+/* @theme "~/.config/rofi/themes/mininal_outline.rasi" */
+/* @theme "~/.config/rofi/themes/arc_dark_colors.rasi" */
