@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:Visualizer feed
-state: pause
-current: 33
-time: 97.757000
+state: play
+current: 36
+time: 120.622000
 random: 0
 repeat: 1
 single: 1
@@ -12,82 +12,41 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:nm/28dayslater.mp3
-1:am/Attack on Titan OST - Apple Seed『Berthold Transformation Theme.opus
-2:am/Attack on Titan OST - Before Lights Out『Erwin's Charge Theme.opus
-3:am/Attack on Titan S2 OST - YOUSEEBIGGIRL_T -T (Reiner and Berthold transformation theme) .opus
-4:nm/Stranger Things Theme Song (C418 REMIX).opus
-5:lf/a cruel angel's thesis (Neon Genesis Evangelion but is it okay if it's lofi hiphop).opus
-6:am/YouSeeBIGGIRL_T -T (Good Part Extended).opus
-7:am/Zenitsu Theme V2 (Thunder Clap and Flash!).opus
-8:am/Ray's Retaliation.opus
-9:am/Hunter X Hunter Soundtrack - Hirano - Meimou.opus
-10:am/Hunter x Hunter 2011 Unreleased Soundtrack - Ansatsu Ikka no Yakata (No Choir).opus
-11:am/Attack on Titan Season 3 OST - ətˈæk 0N tάɪtn WMId (Vocal - Eliana).opus
-12:am/My War - Attack on Titan Season 4 Opening Metal Cover.opus
-13:am/Most Heartful Anime OST - REASON ~Instrumental.opus
-14:am/Hunter x Hunter (2011) OST - Hyōri Ittai ~ Lamento for piano.opus
-15:am/Attack on Titan - Vogel im Käfig (Feora Remix).opus
-16:am/Attack on Titan - YOUSEEBIGGIRL_T -T (Apple Seed x Vogel Im Kafig) _ EPIC COVER.opus
-17:am/Hunter x Hunter 2011 OST - Restriction and Pledge [extended].opus
-18:am/Number One (Bleach TYBW Arc Ost) Extended.opus
-19:am/Hunter x Hunter 2011 OST Kingdom of Predators.opus
-20:lf/[anime lofi]Fukashigi no Carte _ Ren Avel.opus
-21:lf/fukashigi no carte (lofi).opus
-22:lf/Kingdom of Predators Lofi.opus
-23:lf/Zenitsu Theme (Demon Slayer Lofi).opus
-24:lf/Demon Slayer - Zenitsu's Theme Lofi mix.opus
-25:lf/Demon slayer(Kimetsu no Yaiba) inspired lofi beat.opus
-26:lf/isabella's lullaby (The Promised Neverland lofi).opus
-27:lf/T-KT.mp3
-28:lf/My War (From Attack on Titan).mp3
-29:lf/Zoldyck Family Lofi.opus
-30:lf/Unravel (From Tokyo Ghoul) - Lofi Remix.mp3
-31:lf/unravel (Tokyo Ghoul but is it okay if it's lofi hiphop).opus
-32:lf/To Give a Marionette Life Lofi.opus
-33:lf/Tokyo Ghoul - Unravel (Kato Cover).opus
-34:lf/Restriction and Pledge Lofi.opus
-35:nm/ARCANE - Guns for Hire _ EPIC ORCHESTRAL VERSION (feat. Goodbye).opus
-36:nm/Bea Miller - Playground  _ Arcane League of Legends _ Riot Games Music.opus
-37:nm/Beach House - Space Song (Intro Only).opus
-38:nm/Billie Eilish - lovely (Lyrics) ft. Khalid.opus
-39:nm/Legends Never Die (ft. Against The Current) [OFFICIAL AUDIO] _ Worlds 2017 - League of Legends.opus
-40:nm/Marvel's Daredevil - Opening Titles - Now Streaming on Netflix.opus
-41:nm/Mozart - Lacrimosa.opus
-42:nm/Sia - Courage To Change (Lyric Video).opus
-43:nm/Sia - Unstoppable (Lyrics).opus
-44:nm/Stranger Things Season 4 Episode 9 (Finale) Ending Song - Stranger Things (The Piggyback Version).opus
-45:nm/Woodkid - Guns for Hire _ Arcane League of Legends _ Riot Games Music.opus
-46:nm/Blue.opus
-47:nm/Bolbbalgan4 - You Lyrics [Han_Rom_Eng].opus
-48:nm/Bolbbalgan4_Some LYRICS (HAN_ROM_ENG).opus
-49:nm/Game of Thrones - Season 6 OST - Light of the Seven (EP 10 Trial scene).opus
-50:am/Link Click S1 OST _ [15 Pray].opus
-51:am/Psycho-Pass OST - Track 01 - Psycho-Pass Main Theme.opus
-52:am/Demon Slayer - Zenitsu Theme (KI BEATS TRAP REMIX).opus
-53:lf/Requiem Aranea (Phantom Troupe Theme) Lofi.opus
-54:lf/Hyori Ittai Lofi.opus
-55:lf/Joakim Karud - Canals.opus
-56:lf/Light's Theme lofi - Death Note.opus
-57:lf/Lofi Classical - Mozart's Requiem Lacrimosa.opus
-58:lf/next to you (Parasyte but is it okay if it's lofi hiphop).opus
-59:lf/YOUSEEBIGGIRL_T -T but it's lofi hip hop _ Attack on Titan Lofi.opus
-60:lf/Youseebiggirl - kato.opus
-61:am/Attack on Titan OST - Vogel im Kafig Best Part Extended.opus
-62:am/- Death Note OST I Light's Theme (Raito no Tēma).opus
-63:am/L's theme A.opus
-64:am/Hunter x Hunter Soundtrack - To Give a Marionette Life [EXTENDED].opus
-65:lf/Damned world we lived in - lofi beat.opus
-66:am/Neon Genesis Evangelion - Good, Or Don't Be.opus
-67:am/Hisoka bloodlust Meimou Remix.opus
-68:lf/Guns for Hire (Arcane Lofi).mp3
-69:lf/departure (Hunter x Hunter but is it okay if it's lofi hiphop).opus
-70:nm/Lenka - Everything At Once (Lyrics).opus
-71:lf/Departure Lofi.opus
-72:nm/Attention - Charlie Puth (Piano Cover) - Peter Bence.opus
-73:nm/AURORA - Runaway (Lyrics).opus
-74:lf/Death Note - L's Theme (Kayou. Remix).opus
-75:lf/Ashes on The Fire lofi (attack on titan season 4).opus
-76:lf/[anime lofi] Attack on Titan - YouSeeBIGGIRL _ Ren Avel.opus
-77:am/Cö shu Nie-Asphyxia (Audio).opus
+0:am/kingdomofpredators.opus
+1:am/My War - Attack on Titan Season 4 Opening Metal Cover.opus
+2:am/Number One (Bleach TYBW Arc Ost) Extended.opus
+3:am/Cö shu Nie-Asphyxia (Audio).opus
+4:am/L's theme A.opus
+5:am/Link Click S1 OST _ [15 Pray].opus
+6:am/Attack on Titan S2 OST - YOUSEEBIGGIRL_T -T (Reiner and Berthold transformation theme) .opus
+7:am/Most Heartful Anime OST - REASON ~Instrumental.opus
+8:am/Hunter x Hunter Soundtrack - To Give a Marionette Life [EXTENDED].opus
+9:am/- Death Note OST I Light's Theme (Raito no Tēma).opus
+10:am/Ashes on The Fire (The Final Season Original Soundtrack).opus
+11:lf/T-KT.mp3
+12:lf/Zenitsu Theme (Demon Slayer Lofi).opus
+13:lf/YOUSEEBIGGIRL_T -T but it's lofi hip hop _ Attack on Titan Lofi.opus
+14:lf/Youseebiggirl - kato.opus
+15:lf/unravel (Tokyo Ghoul but is it okay if it's lofi hiphop).opus
+16:lf/Tokyo Ghoul - Unravel (Kato Cover).opus
+17:lf/To Give a Marionette Life Lofi.opus
+18:lf/Restriction and Pledge Lofi.opus
+19:lf/Requiem Aranea (Phantom Troupe Theme) Lofi.opus
+20:lf/next to you (Parasyte but is it okay if it's lofi hiphop).opus
+21:lf/Lofi Classical - Mozart's Requiem Lacrimosa.opus
+22:lf/Light's Theme lofi - Death Note.opus
+23:lf/Kingdom of Predators Lofi.opus
+24:lf/Joakim Karud - Canals.opus
+25:lf/isabella's lullaby (The Promised Neverland lofi).opus
+26:am/Demon Slayer - Zenitsu Theme (KI BEATS TRAP REMIX).opus
+27:am/Hisoka bloodlust Meimou Remix.opus
+28:am/Hunter x Hunter (2011) OST - Hyōri Ittai ~ Lamento for piano.opus
+29:am/Hunter x Hunter 2011 OST - Restriction and Pledge [extended].opus
+30:am/Hunter x Hunter 2011 OST Kingdom of Predators.opus
+31:am/Hunter x Hunter 2011 Unreleased Soundtrack - Ansatsu Ikka no Yakata (No Choir).opus
+32:am/Hunter X Hunter Soundtrack - Hirano - Meimou.opus
+33:nm/Woodkid - Guns for Hire _ Arcane League of Legends _ Riot Games Music.opus
+34:nm/Sia - Unstoppable (Lyrics).opus
+35:nm/Billie Eilish - lovely (Lyrics) ft. Khalid.opus
+36:nm/AURORA - Runaway (Lyrics).opus
 playlist_end

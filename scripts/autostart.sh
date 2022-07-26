@@ -19,7 +19,7 @@
 
 # Another way of doing the same
 alacritty -e ncmpcpp & sleep 0.1 
-bspc node newest -d 10 follow=off
+bspc node focused -d 10 follow=off  # changed to fucused from newest
 brave & 
 xournalpp & # no need to add sleep 0.2 if both follow = off
 bspc desktop -f 1 && alacritty
