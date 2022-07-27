@@ -59,6 +59,7 @@ alias nb='newsboat'
 alias v='nvim'
 alias yt='ytfzf'
 alias ytt='ytfzf -t'
+alias tms='tmux-sessionizer'
 
 # Some plugins
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

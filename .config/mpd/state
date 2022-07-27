@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:Visualizer feed
-state: play
-current: 36
-time: 120.622000
+state: pause
+current: 24
+time: 106.496000
 random: 0
 repeat: 1
 single: 1
@@ -49,4 +49,8 @@ playlist_begin
 34:nm/Sia - Unstoppable (Lyrics).opus
 35:nm/Billie Eilish - lovely (Lyrics) ft. Khalid.opus
 36:nm/AURORA - Runaway (Lyrics).opus
+37:nm/Bea Miller - Playground  _ Arcane League of Legends _ Riot Games Music.opus
+38:nm/Beach House - Space Song (Intro Only).opus
+39:nm/Legends Never Die (ft. Against The Current) [OFFICIAL AUDIO] _ Worlds 2017 - League of Legends.opus
+40:nm/Game of Thrones - Season 6 OST - Light of the Seven (EP 10 Trial scene).opus
 playlist_end
